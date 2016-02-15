@@ -207,6 +207,8 @@ class ICSC {
       #endif
         boolean isBroadCast();
         boolean isRelay();
+        boolean setStation(uint8_t station) {_station = station;}
+        uint8_t getStation() {return _station;}
 
 };
 
